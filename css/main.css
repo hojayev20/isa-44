@@ -1,0 +1,114 @@
+.bg-image-intre {
+    background-image: url("../img/contact-bg.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.bg-image-intre0 {
+    background-image: url("../img/video-bg.jpg  ");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.bg-image-between {
+    background-image: url("../img/video-bg.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.bg-image-last {
+    background-image: url("../img/contact-bg.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-shadow {
+    background-color: rgba(228, 222, 222, 0.274);
+}
+
+a.hover-1 {
+    position: relative;
+    color: white!important;
+}
+
+a.hover-1:hover {
+    color: red!important;
+}
+.card {
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+.card:hover {
+    transform: translateY(-15px);
+}
+.card1 {
+    cursor: pointer;
+    transition: ease 0.7s;
+}
+.card1:hover {
+    transform: translateY(-10px);
+}
+
+.border-left1 {
+    border-left: 3px solid #EE5E67;
+    padding-left: 5px;
+    font-size: small;
+}
+
+.box-shadow {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) ;
+
+}
+
+#splide1 .splide__pagination {
+    left: 0;
+    right: auto;
+    transform: none;
+    width: 100%;
+    justify-content: flex-start;
+    padding-left: 3rem;
+    bottom: 30px;
+
+}
+
+#splide1 .splide__pagination__page {
+    background: white;
+    border: none;
+    opacity: 0.5;
+}
+
+#splide1 .splide__pagination__page.is-active {
+    background: #f35525;
+    opacity: 1;
+    transform: scale(1.4);
+}
+
+
+#splide2 .splide__pagination {
+    transform: none;
+    width: 100%;
+    bottom: 20px;
+
+}
+
+#splide2 .splide__pagination__page {
+    background: black;
+    border: none;
+    opacity: 0.5;
+}
+
+#splide2 .splide__pagination__page.is-active {
+    background: #f35525;
+    opacity: 1;
+    transform: scale(1.4);
+}
+
